@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snippet Safe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Snippet Safe</h1>
+            <div id="safe-id-input" class="safe-id-section">
+                <input type="text" id="safe-id" placeholder="Enter your Safe ID">
+                <button id="load-safe">Load Safe</button>
+            </div>
+        </header>
+
+        <main id="safe-content" class="hidden">
+            <div class="actions">
+                <button id="paste-snippet" class="primary-button">Paste Snippet from Clipboard</button>
+            </div>
+            
+            <div class="snippets-list">
+                <h2>Your Snippets</h2>
+                <div id="snippets-container"></div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 

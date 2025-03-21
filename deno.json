@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-read --allow-env --allow-sys main.ts",
+    "dev": "deno run --watch --allow-net --allow-read --allow-env --allow-sys main.ts",
+    "test": "deno test --allow-net --allow-read --allow-env --allow-sys"
+  },
+  "imports": {
+    "oak": "https://deno.land/x/oak@v12.6.1/mod.ts",
+    "dotenv": "https://deno.land/std@0.208.0/dotenv/mod.ts"
+  },
+  "compilerOptions": {
+    "lib": ["deno.window", "dom", "esnext"],
+    "strict": true
+  }
+} 
