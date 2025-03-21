@@ -13,4 +13,4 @@ Snippets are shown in a list, sorted by the date they were added, with the most 
 Snippets can also be permanently deleted.
 
 ## Implementation
-The website uses plain html, css and javascript, hosted in deno deploy. Snippets are stored in deno kv.
+The website uses plain html, css and javascript, hosted in supabase. Server side is written using nodejs in plain javascript.
